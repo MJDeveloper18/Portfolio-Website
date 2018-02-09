@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="description" content="Portfolio website I made to hold information about me and what I am capable of doing. Also has information of how to contact me.">
+
+  <title>Michael Diggs - Front End Web Developer</title>
+
+  <link rel="canonincal" href="{{ site.url }}{{ page.url }}"/>
+  <link rel='stylesheet' href="css/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900">
+
+</head>
+<body>
+  <div id="background">
+  <img src="background.png" alt="">
+  </div>
+  <div id="particles-js"></div>
+
+
+
+
+
+
+  <p id='name'>Michael Diggs</p>
+  <p id='sub-name'>Front End Web Developer</p>
+
+  <div class="icons">
+    <a href="https://github.com/MJDeveloper18"><i class="fab fa-github-square"></i></a>
+    <a href="https://www.behance.net/mjdevelope117b"><i class="fab fa-behance-square"></i></a>
+    <a href="mailto:mjdeveloper18@gmail.com"><i class="fas fa-envelope-square"></i></a>
+  </div>
+
+
+  <div class="wrapper">
+  <div class="floatleft">
+
+  <p id="what-I-do"><i class="far fa-question-circle"></i> What I do?</p>
+
+
+  <p id="what-I-do-text">I'm a Front End Web Developer,
+  I specialize<br> in HTML, CSS, and Javascript. Other than<br>
+  programming, I'm an avid gamer who loves to<br>
+  play competitive games.</p> 
+
+  <p id="what-I-do-items"><i class="fas fa-caret-right"></i> Responsive Websites<br>
+  <i class="fas fa-caret-right"></i> E-commerce Websites<br>
+  <i class="fas fa-caret-right"></i> Design & UX</p>
+
+  </div>
+  </div>
+
+
+  <div class="wrapper">
+  <div class="floatright">
+
+    <p id="skills"><i class="fas fa-code"></i> Skills</p>
+
+    <p id="skills-text">I'm very proficent in Front End Development<br>
+      I can create simple, yet beautiful content using CSS and Javascript.<br>
+      I'm also able to utilize Design programs such as Photoshop to outline<br>
+      the website before I even start coding and creating it</p>
+  
+    <p id="skills-items"><i class="fas fa-caret-right"></i> Front End Web Development<br>
+    <i class="fas fa-caret-right"></i> Bootstrap<br>
+    <i class="fas fa-caret-right"></i> Photoshop<br>
+    </p>
+
+  </div>
+</div>
+
+
+<div class="wrapper2">
+<div class="portfolio">
+
+<a href="https://mjdeveloper18.github.io/Vertcoin-Live-Price/"><img src="vertcoin.png" alt="Vertcoin Price Tracker"></a>
+<p class="vert-name">Project #1</p>
+<p class="vert-name">Vertcoin Price Checker</p>
+<p class="vert-name">Used to track the cryptocurrency "Vertcoin". Shows live price and percentage change</p>
+
+</div>
+</div>
+
+
+
+<p id="contact-me">Contact Me</p>
+
+
+  
+<div class="contact-form">
+<form action="https://formspree.io/mjdeveloper18@gmail.com" method="POST"><br>
+<p class="c-name">Name:</p><br>
+<input type="text" id="contact-name" name="Name"  required><br><br>
+<p class="c-email">E-mail:</p><br>
+<input type="email" name="Email" id="contact-email" required><br><br>
+<p class="c-message">Message:</p><br>
+<textarea  id="contact-message" name="Message" required></textarea><br><br><br>
+<input type="submit"  id="realmessage" value="Send Message">
+</form>
+</div> 
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script>
+
+
+particlesJS.load('particles-js', 'particles.json', function() {
+  console.log('callback - particles.js config loaded');
+});
+
+</script>
+
+<script type="text/javascript"> var host = "mjdeveloper.me"; if ((host == window.location.host) && (window.location.protocol != "https:")) window.location.protocol = "https";</script> 
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+</body>
+</html>
